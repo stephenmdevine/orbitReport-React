@@ -1,6 +1,5 @@
 import styles from './styling.css'
 
-
 const Table = ({ sat }) => {
   let body = sat.map((id, data) => {});
   return (
