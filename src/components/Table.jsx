@@ -15,7 +15,7 @@ const Table = ({ sat }) => {
      <tbody>
       {sat.map((data) => {
         const row = (
-          <tr>
+          <tr key={data.id}>
             <td>{data.name}</td>
             <td>{data.type}</td>
             <td>{data.launchDate}</td>
